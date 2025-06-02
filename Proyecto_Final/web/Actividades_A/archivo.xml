@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding ="UTF-8" standalone="yes"?>
+<!--Nodo raiz-->
+<nodo >
+
+    <nombre>
+        Aldo Enrique Hernandez Flores
+    </nombre>
+    <carrera nombre="2193045908">
+        Ingeneria en computacion
+    </carrera>
+    <nombre>
+        
+    </nombre>
+    
+    <nombre/>
+    
+    <carrera matricula="2193045908" Intitucion="UAM" sexo="M" Nacionalidad="Mexicana" Edad="100" >
+        Ingeneria en computacion
+    </carrera>
+    <!--Comentarios-->
+    <!--<!ENTITY matr"2193035908"> <TERM>La matricula es &matr</TERM> -->
+    <predefinida>
+        &amp;  
+        &lt; 
+        &gt;  
+        &apos; 
+        &quot; 
+
+    </predefinida>
+    
+    <carrera matricula="" Intitucion="" sexo="" Nacionalidad="" Edad="" >
+        Ingeneria en computacion
+    </carrera>
+
+    <nombres>
+        <nombre>Aldo</nombre>
+        <nombre2>Enrique</nombre2>
+        <apellidoP>Hdez</apellidoP>
+        <apellidoM>Flores</apellidoM>
+    </nombres>
+
+
+
+
+    
+        
+
+</nodo >

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- García Godoy Víctor Saúl 2183042802-->
+<!-- Ejemplo de entidades parseadas. -->
+<!-- La definicion de las entidades va antes del nodo raiz. -->
+
+<!DOCTYPE ejemplo_entidad 
+	[<!ENTITY rfcTienda "GAADFXXX0043DV">
+	<!ENTITY rfcCliente "XXX0DFREFDFDS3">]
+>
+
+<tienda>
+	<libros>
+		<libro id="IVD7jqYZEozWyl">
+			<titulo>Desarrollo de Software</titulo>
+			<autor>Pedro Pablo Gonzales Perez</autor>
+			<fecha_publicacion>12/12/2000</fecha_publicacion>
+			<descripcion>
+				Erase una vez un Java Servlet...
+			</descripcion>
+			<precio>
+				$320.00 MXN
+			</precio>
+		</libro>
+		<libro id="Cvq9ZdkjWkY3mo">
+			<titulo>Matematicas Aplicadas para Ingenieria</titulo>
+			<autor>Rafael Perez Flores</autor>
+			<fecha_publicacion>06/04/2001</fecha_publicacion>
+			<descripcion>
+				Métodos para ingenieria.
+			</descripcion>
+			<precio>
+				$320.00 MXN
+			</precio>
+		</libro>
+		<libro id="E9FUVaJuVPa68V">
+			<titulo>Arquitectura de Computadoras</titulo>
+			<autor>Maria del Carmen Fuentes</autor>
+			<fecha_publicacion>01/03/1999</fecha_publicacion>
+			<descripcion>
+				Una breve introduccion a la arquitectura de computadoras
+			</descripcion>
+			<precio>
+				$320.00 MXN
+			</precio>
+		</libro>
+		<libro id="SgMjC4UORoZbQg">
+			<titulo>Ecuaciones Diferenciales</titulo>
+			<autor>Arturo Ramirez Mendez</autor>
+			<fecha_publicacion>12/12/2000</fecha_publicacion>
+			<descripcion>
+				El mundo de las ecuaciones diferenciales.
+			</descripcion>
+			<precio>
+				$320.00 MXN
+			</precio>
+		</libro>
+	</libros>
+	<adicionales>
+		<factura>
+			<rfc_emisor>
+				&rfcTienda; &amp;
+			</rfc_emisor>
+			<rfc_receptor>
+				&rfcCliente; &lt;
+			</rfc_receptor>
+			<precio_compra>$350.00</precio_compra>
+		</factura>
+	</adicionales>
+</tienda>

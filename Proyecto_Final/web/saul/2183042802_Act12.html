@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- 2183042802 García Godoy Víctor Saúl -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="./main.js" type="text/javascript"></script> -->
+    <title>Tienda de Productos</title>
+</head>
+<body class="w-full h-screen">
+    <header class="w-full bg-red-800 flex justify-start py-3 shadow">
+        <h2 class="text-white text-center w-full font-bold text-2xl" id="tittle">
+            Página de Productos de la UAM Azcapotzalco
+        </h2>
+    </header>
+    <div class="w-full h-screen bg-gradient-to-t from-red-500 to-white flex justify-center">
+        <div class="w-auto h-screen grid lg:grid-cols-3 p-3 md:grid-cols-2 grid-cols-1" id="contenedor_productos">
+            <div class="w-[300px] h-[380px] m-3 border border-red-600 border-2 flex flex-col justify-evenly p-3 bg-white shadow" id="IVD7jqYZEozWyl">
+                <p class="w-full text-center my-2 font-medium font-sans text-blue-600 title">Desarrollo de Software</p>
+                <img class="w-24 self-center" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F2018%2F05%2FBooks-PNG-File.png&f=1&nofb=1&ipt=38fcfb63a1ad2556e557c5abee872ee748d12050686eec25c7795b557c062a69&ipo=images"
+                alt="libro"/>
+                <p class="text-sm text-left">Dr. Pedro Pablo Gonzales Perez</p>
+                <p class="text-xs text-left">Erase una vez un Java Servlet...</p>
+                <p class="text-red-500 font-bold text-center">$320.00 MXN</p>
+                <button 
+                    class="border rounded p-1 px-2 bg-green-500 shadow border border-gray-200 hover:bg-green-200"
+                    onclick="comprar('IVD7jqYZEozWyl')"
+                    >
+                    Comprar
+                </button>
+                <button class="border rounded -mt-2 p-1 px-2 bg-yellow-500 shadow border border-gray-200 hover:bg-yellow-200"
+                    onclick="mostrarCajaComentarios()"
+                >
+                    Dejar comentario producto
+                </button>
+            </div>
+            
+            <div class="w-[300px] h-[380px] m-3 border border-red-600 border-2 flex flex-col justify-evenly p-3 bg-white shadow" id="Cvq9ZdkjWkY3mo">
+                <p class="w-full text-center my-2 font-medium font-sans text-blue-600 title">Matematicas Aplicadas para Ingenieria</p>
+                <img class="w-24 self-center" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F2018%2F05%2FBooks-PNG-File.png&f=1&nofb=1&ipt=38fcfb63a1ad2556e557c5abee872ee748d12050686eec25c7795b557c062a69&ipo=images" alt="libro"/>
+                <p class="text-sm text-left">Dr. Rafael Perez Flores</p>
+                <p class="text-xs text-left">Métodos para ingenieria.</p>
+                <p class="text-red-500 font-bold text-center">$320.00 MXN</p>
+                <button class="border rounded p-1 px-2 bg-green-500 shadow border border-gray-200 hover:bg-green-200" onclick="comprar('Cvq9ZdkjWkY3mo')">Comprar</button>
+                <button class="border rounded -mt-2 p-1 px-2 bg-yellow-500 shadow border border-gray-200 hover:bg-yellow-200" onclick="mostrarCajaComentarios()">Dejar comentario producto</button>
+            </div>
+            
+            <div class="w-[300px] h-[380px] m-3 border border-red-600 border-2 flex flex-col justify-evenly p-3 bg-white shadow" id="E9FUVaJuVPa68V">
+                <p class="w-full text-center my-2 font-medium font-sans text-blue-600 title">Arquitectura de Computadoras</p>
+                <img class="w-24 self-center" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F2018%2F05%2FBooks-PNG-File.png&f=1&nofb=1&ipt=38fcfb63a1ad2556e557c5abee872ee748d12050686eec25c7795b557c062a69&ipo=images" alt="libro"/>
+                <p class="text-sm text-left">Dra. Maria del Carmen Fuentes</p>
+                <p class="text-xs text-left">Una breve introducción a la arquitectura de computadoras</p>
+                <p class="text-red-500 font-bold text-center">$320.00 MXN</p>
+                <button class="border rounded p-1 px-2 bg-green-500 shadow border border-gray-200 hover:bg-green-200" onclick="comprar('E9FUVaJuVPa68V')">Comprar</button>
+                <button class="border rounded -mt-2 p-1 px-2 bg-yellow-500 shadow border border-gray-200 hover:bg-yellow-200" onclick="mostrarCajaComentarios()">Dejar comentario producto</button>
+            </div>
+            
+            <div class="w-[300px] h-[380px] m-3 border border-red-600 border-2 flex flex-col justify-evenly p-3 bg-white shadow" id="SgMjC4UORoZbQg">
+                <p class="w-full text-center my-2 font-medium font-sans text-blue-600 title">Ecuaciones Diferenciales</p>
+                <img class="w-24 self-center" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F2018%2F05%2FBooks-PNG-File.png&f=1&nofb=1&ipt=38fcfb63a1ad2556e557c5abee872ee748d12050686eec25c7795b557c062a69&ipo=images" alt="libro"/>
+                <p class="text-sm text-left">Dr. Arturo Ramirez Mendez</p>
+                <p class="text-xs text-left">El mundo de las ecuaciones diferenciales.</p>
+                <p class="text-red-500 font-bold text-center">$320.00 MXN</p>
+                <button class="border rounded p-1 px-2 bg-green-500 shadow border border-gray-200 hover:bg-green-200" onclick="comprar('SgMjC4UORoZbQg')">Comprar</button>
+                <button class="border rounded -mt-2 p-1 px-2 bg-yellow-500 shadow border border-gray-200 hover:bg-yellow-200" onclick="mostrarCajaComentarios()">Dejar comentario producto</button>
+            </div>
+
+            <div class="w-[300px] h-[380px] m-3 border border-red-600 border-2 flex flex-col justify-evenly p-3 bg-white shadow" id="ZxM9PjQWEbvLk3">
+                <p class="w-full text-center my-2 font-medium font-sans text-blue-600 title">Programación en Python</p>
+                <img class="w-24 self-center" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F2018%2F05%2FBooks-PNG-File.png&f=1&nofb=1&ipt=38fcfb63a1ad2556e557c5abee872ee748d12050686eec25c7795b557c062a69&ipo=images" alt="libro"/>
+                <p class="text-sm text-left">Dr. Alejandro Morales García</p>
+                <p class="text-xs text-left">Una guía completa para principiantes y expertos en Python.</p>
+                <p class="text-red-500 font-bold text-center">$280.00 MXN</p>
+                <button class="border rounded p-1 px-2 bg-green-500 shadow border border-gray-200 hover:bg-green-200" onclick="comprar('ZxM9PjQWEbvLk3')">Comprar</button>
+                <button class="border rounded -mt-2 p-1 px-2 bg-yellow-500 shadow border border-gray-200 hover:bg-yellow-200" onclick="mostrarCajaComentarios()">Dejar comentario producto</button>
+            </div>
+            
+            <div class="w-[300px] h-[380px] m-3 border border-red-600 border-2 flex flex-col justify-evenly p-3 bg-white shadow" id="JqT5RnWXYoVzK9">
+                <p class="w-full text-center my-2 font-medium font-sans text-blue-600 title">Diseño Gráfico Moderno</p>
+                <img class="w-24 self-center" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F2018%2F05%2FBooks-PNG-File.png&f=1&nofb=1&ipt=38fcfb63a1ad2556e557c5abee872ee748d12050686eec25c7795b557c062a69&ipo=images" alt="libro"/>
+                <p class="text-sm text-left">Lic. Mariana Ruiz Pérez</p>
+                <p class="text-xs text-left">Explora las tendencias actuales en diseño gráfico.</p>
+                <p class="text-red-500 font-bold text-center">$340.00 MXN</p>
+                <button class="border rounded p-1 px-2 bg-green-500 shadow border border-gray-200 hover:bg-green-200" onclick="comprar('JqT5RnWXYoVzK9')">Comprar</button>
+                <button class="border rounded -mt-2 p-1 px-2 bg-yellow-500 shadow border border-gray-200 hover:bg-yellow-200" onclick="mostrarCajaComentarios()">Dejar comentario producto</button>
+            </div>
+            
+
+        </div>
+        <aside class="w-[400px] h-4/5 bg-white border border-gray-300 shadow-xl flex flex-col px-4 py-2 hidden" id="comentarios_contenedor">
+            <span onclick="document.getElementById('comentarios_contenedor').style.display='none'" class="">&times;</span>
+            <p class="font-bold text-center w-full text-gray-700">Sección de comentarios</p>
+            <div class="flex flex-1 bg-gray-100 flex-col" id="caja_comentarios">
+                    
+            </div>
+            <div class="flex w-full justify-evenly my-2">
+                <input id="comentario_texto" type="text" placeholder="Introduzca un comentario :)" class="border border-gray-300 rounded p-1 text-center w-full">
+                <button class="px-1 border border-gray-200 bg-red-700 rounded text-white px-2"
+                    onclick="comentar(document.getElementById('comentario_texto').value)"
+                >
+                    Enviar
+                </button>
+            </div>
+        </aside>
+    <script>
+
+        function comprar(id){
+            console.log("Has comprado un libro");            
+        }
+
+        function mostrarCajaComentarios(){
+            document.getElementById('comentarios_contenedor').style.display='block';
+        }
+        function comentar(value){
+            console.log(value);
+            
+            const comentariesContainer = document.getElementById("caja_comentarios");
+            const commentContainer = document.createElement("div");
+            const newParragraph = document.createElement("p");
+            newParragraph.innerText = value;
+            newParragraph.setAttribute("class", "text-xs")
+            commentContainer.setAttribute("class", "w-4/5 border border-red-900 flex m-2 self-center p-3 rounded-lg comment");
+            commentContainer.appendChild(newParragraph);
+            comentariesContainer.appendChild(commentContainer);
+
+        }
+ 
+    </script>
+</body>
+</html>

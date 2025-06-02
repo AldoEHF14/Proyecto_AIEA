@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE ejemplo_entities [
+    <!ENTITY des1 "Futbol">
+    <!ENTITY des2 "Beisbol">
+    <!ENTITY des3 "Tennis">
+    <!ENTITY des4 "Basquetbol">
+    <!ENTITY des5 "Sala">
+]>
+<nodo> 
+    <deportes>
+        <deporte id="12234" precio="$100" descripcion="Balon" tamanio="5" tipo="Futbol">
+            El balon es de tipo &des1; &amp; de otros
+        </deporte>
+        <deporte id="2345" precio="$200" descripcion="Beisbol" tamanio="2" tipo="Chico">
+            El balon es de tipo &des2; &amp; y de mas
+        </deporte>
+        <deporte id="3456" precio="$300" descripcion="Tennis" tamanio="1" tipo="redondo">
+            El balon es de tipo &des3; &amp; de otros
+        </deporte>
+        <deporte id="4567" precio="$400" descripcion="Basquetbol" tamanio="4" tipo="redondo">
+            El balon es de tipo &des4; &amp; de otros
+        </deporte>
+        <deporte id="5678" precio="$500" descripcion="Sala" tamanio="5" tipo="esferico">
+            El balon es de tipo &des5; &amp; y de  otros
+        </deporte>
+    </deportes>
+</nodo>

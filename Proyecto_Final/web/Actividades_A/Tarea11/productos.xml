@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="yes"?>
+<?xml-stylesheet href="productos2.xsl" type="text/xsl"?>
+<!DOCTYPE ejemplo_entities [
+    <!ENTITY des1 "Futbol">
+    <!ENTITY des2 "Beisbol">
+    <!ENTITY des3 "Tennis">
+    <!ENTITY des4 "Basquetbol">
+    <!ENTITY des5 "Sala">
+    
+]>
+<nodo> 
+    <deportes>
+
+        <deporte>
+            <id>1234</id>
+            <precio>$100</precio>
+            <descripcion>Es de tipo &des1;</descripcion>
+            <tamanio>5</tamanio>
+            <tipo>Futbol 11 &amp; mas?</tipo>
+        </deporte>
+        <deporte>
+            <id>5444</id>
+            <precio>$250</precio>
+            <descripcion>Es de tipo &des2;</descripcion>
+            <tamanio>1</tamanio>
+            <tipo> Tennis</tipo>
+        </deporte>
+        <deporte>
+            <id>2345</id>
+            <precio>$200</precio>
+            <descripcion>Es de tipo &des3;</descripcion>
+            <tamanio>5</tamanio>
+            <tipo> Beisbol</tipo>
+        </deporte>
+        <deporte>
+            <id>4567</id>
+            <precio>$400</precio>
+            <descripcion>Es de tipo &des4;</descripcion>
+            <tamanio>4</tamanio>
+            <tipo>Basquetbol</tipo>
+        </deporte>
+        <deporte>
+            <id>5678</id>
+            <precio>$525</precio>
+            <descripcion>Es de tipo &des5;</descripcion>
+            <tamanio>5</tamanio>
+            <tipo>Futbol Sala &amp; otros...</tipo>
+        </deporte>
+        
+    </deportes>
+</nodo>

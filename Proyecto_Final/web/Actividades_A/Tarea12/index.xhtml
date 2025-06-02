@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Productos</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+</head>
+<body>
+    <h1 class="titulo">Tienda de Libros</h1>
+    
+    <div class="productos">
+        <!-- Producto 1 -->
+        <div class="producto">
+            <h2>Caroline</h2>
+            <img src="/img/caroline.jpg" alt="Libro Caroline" />
+            <p>Descripcion: Una emocionante novela juvenil que combina aventura y misterio. Sigue a Caroline mientras descubre los secretos ocultos de su entorno y lucha por su lugar en el mundo.</p>
+            <p>Autor: Neil Gaiman</p>
+            <p>Precio: $349.99 MXN</p>
+        </div>
+    
+        <!-- Producto 2 -->
+        <div class="producto">
+            <h2>El Invisible</h2>
+            <img src="img/invisible.jpg" alt="Libro El Invisible" />
+            <p>Descripcion: Una historia conmovedora sobre un joven que se siente ignorado por el mundo. Este libro explora el poder de la empatía y la conexión humana.</p>
+            <p>Autor: Eloy Moreno</p>
+            <p>Precio: $299.00 MXN</p>
+        </div>
+    
+        <!-- Producto 3 -->
+        <div class="producto">
+            <h2>El Principito</h2>
+            <img src="img/elprincipito.jpg" alt="Libro Principito" />
+            <p>Descripcion: Un clásico de la literatura universal que relata las aventuras de un pequeño príncipe y sus reflexiones sobre la vida, el amor y la amistad.</p>
+            <p>Autor: Antoine de Saint-Exupéry</p>
+            <p>Precio: $270.99 MXN</p>
+        </div>
+    
+        <!-- Producto 4 -->
+        <div class="producto">
+            <h2>Harry Potter 1</h2>
+            <img src="img/harrypotter.jpg" alt="Libro Harry Potter" />
+            <p>Descripcion: La primera entrega de la saga mágica de Harry Potter, donde el joven mago descubre su verdadero destino y entra al fascinante mundo de Hogwarts.</p>
+            <p>Autor: J.K. Rowling</p>
+            <p>Precio: $399.00 MXN</p>
+        </div>
+    
+        <!-- Producto 5 -->
+        <div class="producto">
+            <h2>El Esclavo</h2>
+            <img src="img/el_esclavo.jpg" alt="Libro El Esclavo" />
+            <p>Descripcion: Un relato íntimo y transformador que narra el proceso de redención personal de un hombre atrapado en sus propios miedos y errores.</p>
+            <p>Autor: Francisco J. Ángel</p>
+            <p>Precio: $99.99 MXN</p>
+        </div>
+    </div>    
+    
+    <!-- Sección de Comentarios -->
+    <div class="comentarios">
+        <h2>Comentarios</h2>
+        <form id="formularioComentario">
+            <label for="comentario">Escribe tu comentario:</label><br />
+            <textarea id="comentario" rows="4" cols="50"></textarea><br />
+            <button type="button" onclick="agregarComentario()">Agregar Comentario</button>
+        </form>
+        <div id="listaComentarios"></div>
+    </div>
+
+    <script type="text/javascript" src="coment.js"></script>
+
+</body>
+</html>
