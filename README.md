@@ -33,6 +33,11 @@ Consolidar distintas actividades desarrolladas durante el curso en un solo proye
 - Navegador web para visualizar el menú
 
 ---
+## ▶️ ¿Cómo ejecutar?
+
+1. Abre el proyecto en **NetBeans** o tu editor favorito.
+2. Ejecuta el archivo `index.html` desde el navegador (clic derecho → abrir con).
+3. Navega por las actividades disponibles desde el menú.
 
 ---
 ## 👥 Integrantes del equipo
