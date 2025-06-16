@@ -43,6 +43,9 @@ Consolidar distintas actividades desarrolladas durante el curso en un solo proye
 ## 👥 Integrantes del equipo
 
 - Vistor Saul Garcia Godoy  
-- Aldo Enrique Hernández Flores  
+- Aldo Enrique Hernández Flores
+
+---
+Link de Video: https://drive.google.com/file/d/1M7Rndrz-dfQn7d67YpmG1kKTkGGnme9M/view?usp=drive_link 
 
 
