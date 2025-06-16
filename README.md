@@ -46,6 +46,6 @@ Consolidar distintas actividades desarrolladas durante el curso en un solo proye
 - Aldo Enrique Hernández Flores
 
 ---
-Link de Video: https://drive.google.com/file/d/1M7Rndrz-dfQn7d67YpmG1kKTkGGnme9M/view?usp=drive_link 
+Link del Video: https://drive.google.com/file/d/1M7Rndrz-dfQn7d67YpmG1kKTkGGnme9M/view?usp=drive_link 
 
 
