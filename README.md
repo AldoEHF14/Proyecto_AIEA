@@ -42,7 +42,7 @@ Consolidar distintas actividades desarrolladas durante el curso en un solo proye
 ---
 ## 👥 Integrantes del equipo
 
-- Vistor Saul Garcia Godoy  
+- Victor Saul Garcia Godoy  
 - Aldo Enrique Hernández Flores
 
 ---
