@@ -10,18 +10,18 @@ La estructura fue implementada desde el entorno de desarrollo **NetBeans**, agru
 
 Consolidar distintas actividades desarrolladas durante el curso en un solo proyecto navegable, mediante:
 
-- Un menú principal en HTML
-- Accesos organizados a prácticas, ejercicios o temas trabajados previamente
-- Estructura clara para revisión, consulta y ejecución desde un navegador
+- Un menú principal en HTML.
+- Accesos organizados a prácticas, ejercicios o temas trabajados previamente.
+- Estructura clara para revisión, consulta y ejecución desde un navegador.
 
 ---
 
 ## 🧩 Características del Proyecto
 
-- 🧭 Menú principal de navegación hecho en HTML
-- 📁 Organización por secciones o módulos (uno por actividad o tema)
-- 🔗 Enlaces a archivos `.html`, recursos locales y/o vistas integradas desde NetBeans
-- 💡 Presentación sencilla y funcional accesible desde navegador local
+- 🧭 Menú principal de navegación hecho en HTML.
+- 📁 Organización por secciones o módulos (uno por actividad o tema).
+- 🔗 Enlaces a archivos `.html`, recursos locales y/o vistas integradas desde NetBeans.
+- 💡 Presentación sencilla y funcional accesible desde navegador local.
 
 ---
 
