@@ -40,12 +40,6 @@ Consolidar distintas actividades desarrolladas durante el curso en un solo proye
 3. Navega por las actividades disponibles desde el menú.
 
 ---
-## 👥 Integrantes del equipo
-
-- Victor Saul Garcia Godoy  
-- Aldo Enrique Hernández Flores
-
----
 Link del Video: https://drive.google.com/file/d/1M7Rndrz-dfQn7d67YpmG1kKTkGGnme9M/view?usp=drive_link 
 
 
