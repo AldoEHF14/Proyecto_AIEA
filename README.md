@@ -19,18 +19,10 @@ Consolidar distintas actividades desarrolladas durante el curso en un solo proye
 ## 🧩 Características del Proyecto
 
 - 🧭 Menú principal de navegación hecho en HTML.
-- 📁 Organización por secciones o módulos (uno por actividad o tema).
+- 📁 Organización por secciones o módulos (uno por actividad).
 - 🔗 Enlaces a archivos `.html`, recursos locales y/o vistas integradas desde NetBeans.
 - 💡 Presentación sencilla y funcional accesible desde navegador local.
 
----
-
-## 🛠️ Tecnologías utilizadas
-
-- HTML5 (estructura y navegación)
-- CSS (estilizado básico, si aplica)
-- Java / NetBeans (estructura del proyecto, backend si fue usado)
-- Navegador web para visualizar el menú
 
 ---
 ## ▶️ ¿Cómo ejecutar?
