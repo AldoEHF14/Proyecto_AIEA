@@ -1,6 +1,6 @@
 # UEA_A: Arquietectura E Integración De Aplicaciones Empresariales
 
-# 📚 Menú Integrador de Actividades
+# 📚 Integrador de Actividades
 
 La estructura fue implementada desde el entorno de desarrollo **NetBeans**, agrupando varias prácticas o ejercicios individuales en un solo menú funcional.
 
